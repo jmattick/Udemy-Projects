@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+
+body{
+	font-family: 'ABeeZee', sans-serif;
+	padding: 0 0;
+	text-align: center;
+	background-color: white;
+	color: white;
+	margin: 0px;
+}
+#topstuff{
+	
+	position: relative;
+	margin-top: -25px;
+	padding: 20px;
+
+}
+.background-anim{
+	background: linear-gradient(229deg, #e621aa, #2147e6);
+	background-size: 400% 400%;
+	-webkit-animation: AnimationName 30s ease infinite;
+	-moz-animation: AnimationName 30s ease infinite;
+	-o-animation: AnimationName 30s ease infinite;
+	animation: AnimationName 30s ease infinite;
+}
+h2 {
+	font-size: 3em;
+}
+#options{
+	background-color: #B6BCC3;
+	/*padding: 10px;*/
+}
+
+#container{
+	max-width: 600px;
+	
+	margin: 0 auto;
+}
+
+span {
+	text-transform: uppercase;
+	display: inline-block;
+	
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-size: 1em;
+	padding: 1.66%;
+	
+	
+	
+}
+.selected-btn {
+	color: black;
+	background-color: darkgray;
+}
+
+
+.hidden {
+	visibility: hidden;
+
+}
+span:hover {
+	color: black;
+}
+#new{
+	text-align: left;
+	width: 20%;
+	
+}
+#response{
+	
+	width: 40%;
+	
+}
+#easy {
+	
+	width: 10%;
+}
+#hard {
+	
+	width: 10%;
+}
+
+
+
+#tiles {
+
+	max-width: 600px;
+	margin: 0 auto;
+}
+#tiles div {
+	background-color: red;
+	/*height: 100px;*/
+	width: 30%;
+	margin: 1.66%;
+	padding-bottom: 30%;
+	float: left;
+	border-radius: 15px;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
